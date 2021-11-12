@@ -1,348 +1,385 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-:root{
-    --card1: #4CBAF6;
-    --card2: #49A0F5;
-    --card3: #6D62E4;
-    --primary: #15c39a;
-    --secondary: #c7ced9;
-    --sec2: #555c6a;
-    --cardH: #2e3543;
-    --cardP: #838487;
-    --cardR: #fdfdfd;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+:root {
+  --card1: #4cbaf6;
+  --card2: #49a0f5;
+  --card3: #6d62e4;
+  --primary: #15c39a;
+  --secondary: #c7ced9;
+  --sec2: #555c6a;
+  --cardH: #2e3543;
+  --cardP: #838487;
+  --cardR: #fdfdfd;
 }
-html{
-    font-family: 'Inter', sans-serif;
-    box-sizing: border-box;
+html {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
-body{
-    background-color: #F5F6FB;
+body {
+  background-color: #f5f6fb;
 }
 
-table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    background: transparent;
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
 }
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 button {
-    border: none;
-    padding: 8px 12px;
-    border-radius: 16px;
-    background: var(--primary);
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 11px;
-    line-height: 17px;
-    font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-  }
-img{
-    width: 50%;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;
+  background: var(--primary);
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.6875rem;
+  line-height: 1.0625rem;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-th{
-    text-align: left;
+img {
+  width: 50%;
 }
-.grammaly{
-    background-color: #F5F6FB;
-    width: 550px;
-    margin: 0 auto;
+th {
+  text-align: left;
 }
-.section-1{
-    background-color: #fff;
-    padding: 32px;
+.grammaly {
+  background-color: #f5f6fb;
+  width: 34.375rem;
+  margin: 0 auto;
 }
-.section-1 tbody{
-    text-align: center;
+.section-1 {
+  background-color: #fff;
+  padding: 2rem;
 }
-.section-1 tr:first-child td{
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 21px;
-    color: var(--secondary);
+.section-1 tbody {
+  text-align: center;
 }
-.section-1 tr:nth-child(3) td{
-    text-transform: capitalize;
-    font-size: 25px;
-    line-height: 38px;
-    color: var(--sec2);
+.section-1 tr:first-child td {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  color: var(--secondary);
 }
-.section-1 tr:last-child td{
-    font-size: 15px;
-    line-height: 23px;
-    color: var(--sec2);
+.section-1 tr:nth-child(3) td {
+  text-transform: capitalize;
+  font-size: 1.5625rem;
+  line-height: 2.375rem;
+  color: var(--sec2);
 }
-.section-2{
-    background-color: #fff;
-    padding: 32px;
+.section-1 tr:last-child td {
+  font-size: 0.9375rem;
+  line-height: 1.4375rem;
+  color: var(--sec2);
 }
-.section-2 > table > tbody > tr > td:first-child th{
-    text-transform: uppercase;
-    font-size: 14px;
-    color: var(--sec2);
+.section-2 {
+  background-color: #fff;
+  padding: 2rem;
 }
-.section-2 > table > tbody > tr > td:first-child tr:nth-child(2){
-    line-height: 16px;
+.section-2 > table > tbody > tr > td:first-child th {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: var(--sec2);
 }
-.section-2 > table > tbody > tr > td:first-child td{
-    text-transform: lowercase;
-    font-size: 24px;
-    color: var(--primary);
+.section-2 > table > tbody > tr > td:first-child tr:nth-child(2) {
+  line-height: 1rem;
 }
-.section-2 > table > tbody > tr > td:nth-child(2){
-    width: 97px;
-    border-right: .2px solid var(--secondary);
+.section-2 > table > tbody > tr > td:first-child td {
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+.section-2 > table > tbody > tr > td:nth-child(2) {
+  width: 6.0625rem;
+  border-right: 0.2px solid var(--secondary);
 }
 .section-2 > table > tbody > tr > td:last-child {
-    padding-left: 16px;
-    font-size: 12px;
-    text-align: center;
+  padding-left: 1rem;
+  font-size: 0.75rem;
+  text-align: center;
 }
-.section-2 > table > tbody > tr > td:last-child  tr:first-child td{
-    position: relative;
+.section-2 > table > tbody > tr > td:last-child tr:first-child td {
+  position: relative;
 }
-.section-2 > table > tbody > tr > td:last-child  tr:first-child td i:last-child{
-    font-size: 50px;
-    color: #E7EAEE;
+.section-2 > table > tbody > tr > td:last-child tr:first-child td i:last-child {
+  font-size: 3.125rem;
+  color: #e7eaee;
 }
-.section-2 > table > tbody > tr > td:last-child  tr:first-child i:first-child{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 10;
-    color: #fff;
-    transform: translate(-50%,-50%);
-    font-size: 20px;
+.section-2 > table > tbody > tr > td:last-child tr:first-child i:first-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  font-size: 1.25rem;
 }
-.section-2 > table > tbody > tr > td:last-child  tr:nth-child(2) {
-    line-height: 4px;
+.section-2 > table > tbody > tr > td:last-child tr:nth-child(2) {
+  line-height: 0.25rem;
 }
-.section-2 > table > tbody > tr > td:last-child  tr:nth-child(3) {
-    color: var(--secondary);
+.section-2 > table > tbody > tr > td:last-child tr:nth-child(3) {
+  color: var(--secondary);
 }
-.section-2 > table > tbody > tr > td:last-child  tr:last-child {
-    color: var(--card1);
+.section-2 > table > tbody > tr > td:last-child tr:last-child {
+  color: var(--card1);
 }
 
 .dynamic-cards > table > tbody > tr > td:first-child {
-    background-color: #fff;
-    padding: 32px 16px 32px 32px;
-    width: 295px;
+  background-color: #fff;
+  padding: 2rem 1rem 2rem 2rem;
+  width: 18.4375rem;
 }
-.dynamic-cards > table > tbody > tr > td:first-child tr:first-child{
-    text-transform: uppercase;
-    font-size: 14px;
-    color: var(--sec2);
+.dynamic-cards > table > tbody > tr > td:first-child tr:first-child {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  color: var(--sec2);
 }
-.dynamic-cards > table > tbody > tr > td:first-child tr:last-child{
-    font-size: 17px;
-    line-height: 26px;
-    color: var(--cardP);
+.dynamic-cards > table > tbody > tr > td:first-child tr:last-child {
+  font-size: 1.0625rem;
+  line-height: 1.625rem;
+  color: var(--cardP);
 }
-.dynamic-cards a{
-    color: var(--card1);
+.dynamic-cards a {
+  color: var(--card1);
 }
 .dynamic-cards > table > tbody > tr > td:last-child {
-    padding: 32px 32px 32px 16px;
-    color: var(--cardR);
+  padding: 2rem 2rem 2rem 1rem;
+  color: var(--cardR);
 }
-.dynamic-cards > table > tbody > tr > td:last-child > table > tbody > tr:first-child {
-    text-align: right;
-    font-size: 32px;
-    font-weight: 700;
+.dynamic-cards
+  > table
+  > tbody
+  > tr
+  > td:last-child
+  > table
+  > tbody
+  > tr:first-child {
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 700;
 }
-.dynamic-cards > table > tbody > tr > td:last-child > table > tbody > tr:nth-child(2) {
-    text-align: right;
-    font-size: 15px;
+.dynamic-cards
+  > table
+  > tbody
+  > tr
+  > td:last-child
+  > table
+  > tbody
+  > tr:nth-child(2) {
+  text-align: right;
+  font-size: 0.9375rem;
 }
-.dynamic-cards > table > tbody > tr > td:last-child > table > tbody > tr:last-child  td {
-    text-align: right;
-    font-size: 8px;
-    width: 300px;
+.dynamic-cards
+  > table
+  > tbody
+  > tr
+  > td:last-child
+  > table
+  > tbody
+  > tr:last-child
+  td {
+  text-align: right;
+  font-size: 0.5rem;
+  width: 18.75rem;
 }
-.dynamic-cards > table > tbody > tr > td:last-child > table > tbody > tr:last-child > td{
-    border-top: 1px solid var(--cardR);
-    padding-top: 8px;
+.dynamic-cards
+  > table
+  > tbody
+  > tr
+  > td:last-child
+  > table
+  > tbody
+  > tr:last-child
+  > td {
+  border-top: 1px solid var(--cardR);
+  padding-top: 0.5rem;
 }
 .section-3 > table > tbody > tr > td:last-child {
-    background-color: var(--card1);
+  background-color: var(--card1);
 }
 .section-4 > table > tbody > tr > td:last-child {
-    background-color: var(--card2);
+  background-color: var(--card2);
 }
 .section-5 > table > tbody > tr > td:last-child {
-    background-color: var(--card3);
+  background-color: var(--card3);
 }
-.section-6{
-    background-color: #fff;
-    padding: 32px;
+.section-6 {
+  background-color: #fff;
+  padding: 2rem;
 }
-.section-6a table{
-    text-align: center;
-    margin: 0 auto;
+.section-6a table {
+  text-align: center;
+  margin: 0 auto;
 }
-.section-6a th{
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 21px;
-    color: var(--cardH);
+.section-6a th {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  color: var(--cardH);
 }
-.section-6b{
-    padding: 32px 0;
-    border-top: 1px solid var(--secondary);
+.section-6b {
+  padding: 2rem 0;
+  border-top: 1px solid var(--secondary);
 }
-.section-6b-left > table > tbody > tr:first-child td{
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 15px;
-    color: var(--primary);
-    font-weight: 700;
-    padding-bottom: 8px;
+.section-6b-left > table > tbody > tr:first-child td {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  color: var(--primary);
+  font-weight: 700;
+  padding-bottom: 0.5rem;
 }
-.section-6b-left > table > tbody > tr:last-child{
-    font-size: 17px;
-    line-height: 24px;
-    color: var(--cardH);
+.section-6b-left > table > tbody > tr:last-child {
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  color: var(--cardH);
 }
-.section-6b > table > tbody > tr > td:nth-child(2){
-    width: 42px;
+.section-6b > table > tbody > tr > td:nth-child(2) {
+  width: 2.625rem;
 }
-.section-6b > table > tbody > tr > td:last-child{
-    font-size: 36px;
-    font-weight: 400;
-    color: var(--secondary);
+.section-6b > table > tbody > tr > td:last-child {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: var(--secondary);
 }
-.section-7{
-    background-color: #fff;
+.section-7 {
+  background-color: #fff;
 }
-.section-7-left{
-    border-left: 16px solid var(--primary);
-    padding: 16px;
+.section-7-left {
+  border-left: 1rem solid var(--primary);
+  padding: 1rem;
 }
-.section-7-left > table > tbody > tr:first-child{
-    font-size: 13px;
-    line-height: 20px;
+.section-7-left > table > tbody > tr:first-child {
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
 }
-.section-7-left > table > tbody > tr:nth-child(3){
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--cardH);
+.section-7-left > table > tbody > tr:nth-child(3) {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--cardH);
 }
-.section-7-left ~ td .img-cover{
-    width: 100%;
+.section-7-left ~ td .img-cover {
+  width: 100%;
 }
 .section-7-left > table > tbody > tr:nth-child(2),
-.section-7-left > table > tbody > tr:nth-child(4){
-    line-height: 12px;
+.section-7-left > table > tbody > tr:nth-child(4) {
+  line-height: 0.75rem;
 }
 .section-8a {
-    background-color: var(--sec2);
-    text-align: center;
-    padding: 32px 64px;
+  background-color: var(--sec2);
+  text-align: center;
+  padding: 2rem 4rem;
 }
-.section-8a tr:nth-child(2){
-    font-size: 24px;
-    line-height: 36px;
-    color: #fff;
+.section-8a tr:nth-child(2) {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #fff;
 }
-.section-8a tr:nth-child(4){
-    font-size: 16px;
-    line-height: 24px;
-    color: #bbbdc3;
+.section-8a tr:nth-child(4) {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #bbbdc3;
 }
-.section-8b{
-    background-color: #fff;
-    padding: 32px 64px;
-    font-size: 19px;
-    line-height: 29px;
-    color: var(--cardH);
-    text-transform: capitalize;
+.section-8b {
+  background-color: #fff;
+  padding: 2rem 4rem;
+  font-size: 1.1875rem;
+  line-height: 1.8125rem;
+  color: var(--cardH);
+  text-transform: capitalize;
 }
-.section-8b .ws{
-    width: 50px;
+.section-8b .ws {
+  width: 3.125rem;
 }
-.section-8b a{
-    font-size: 12px;
-    line-height: 29px;
-    color: var(--primary);
-    text-decoration: underline;
+.section-8b a {
+  font-size: 0.75rem;
+  line-height: 1.8125rem;
+  color: var(--primary);
+  text-decoration: underline;
 }
-tfoot{
-    text-align: center;
+tfoot {
+  text-align: center;
 }
-tfoot > tr:nth-child(6){
-    border-bottom: 1px solid #999999;
+tfoot > tr:nth-child(6) {
+  border-bottom: 1px solid #999999;
 }
-.section-socials > table{
-    margin: 0 auto;
+.section-socials > table {
+  margin: 0 auto;
 }
-.section-socials .ws{
-    width: 64px;
+.section-socials .ws {
+  width: 4rem;
 }
-.section-socials i{
-    font-size: 30px;
-    line-height: 14px;
-    color: #999999;
+.section-socials i {
+  font-size: 1.875rem;
+  line-height: 0.875rem;
+  color: #999999;
 }
-.section-links > table{
-    margin: 0 auto;
-    font-size: 15px;
-    line-height: 21px;
+.section-links > table {
+  margin: 0 auto;
+  font-size: 0.9375rem;
+  line-height: 1.3125rem;
 }
-.section-links td:first-child a{
-    color: #414141;
-    text-decoration: underline;
+.section-links td:first-child a {
+  color: #414141;
+  text-decoration: underline;
 }
-.section-links td:nth-child(2){
-    width: 16px;
-    text-decoration: none;
+.section-links td:nth-child(2) {
+  width: 1rem;
+  text-decoration: none;
 }
-.section-links td:last-child a{
-    color: #999999;
-    text-decoration: underline;
+.section-links td:last-child a {
+  color: #999999;
+  text-decoration: underline;
 }
-.section-more-links > table{
-    margin: 0 auto;
-    line-height: 20px;
-    font-size: 13px;
+.section-more-links > table {
+  margin: 0 auto;
+  line-height: 1.25rem;
+  font-size: 0.8125rem;
 }
-.section-more-links td{
-    color: #999999;
+.section-more-links td {
+  color: #999999;
 }
-.section-more-links a{
-    text-decoration: underline;
-    text-transform: capitalize;
-    color: #999999;
+.section-more-links a {
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: #999999;
 }
-.section-message > table{
-    margin:  0 auto;
+.section-message > table {
+  margin: 0 auto;
 }
 .section-message td {
-    font-size: 14px;
-    line-height: 17px;
-    color: #999999;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  color: #999999;
 }
-.section-copy > table{
-    margin: 0 auto;
+.section-copy > table {
+  margin: 0 auto;
 }
 .section-copy td {
-    font-size: 13px;
-    line-height: 20px;
-    color: #999999;
+  font-size: 0.8125rem;
+  line-height: 1.25rem;
+  color: #999999;
 }
-.fa-toggle-on{
-    color: var(--primary);
-    font-size: 30px;
+.fa-toggle-on {
+  color: var(--primary);
+  font-size: 1.875rem;
 }
-.fa-toggle-off{
-    color: var(--cardP);
-    font-size: 30px;
+.fa-toggle-off {
+  color: var(--cardP);
+  font-size: 1.875rem;
 }
